@@ -27,26 +27,26 @@
     
     
  # REMOTE REPO :
- 
+```
    git clone <ADRES>               # Uzaktaki depoyu klonla
    git pull                        # Depodaki son degisiklikleri al
    git push                        # Yereldeki degisiklikleri uzak depoda uygula (origin master)komutuda eklenebilir
-   
+  ``` 
    
    
       
  # BRANCH(DAL) KOMUTLARI :
- 
+ ````
    git branch <BRANCH ADI>         # Branch oluştur
    git branch                      # Branchleri göster
    git checkout <BRANCH ADI>       # Calisilan branchleri degistir    
    git merge <BRANCH ADI>          # Branch birleştir
    git branch -d <BRANCH ADI>      # Branch sil
  
- 
+ ````
     
  # DIGER KOMUTLAR :
- 
+ ```
    git --version                   # Git versiyon numarasını  göster
    git --help                      # Git yardım sayfasını göster 
    git remote -v                   # Uzak depo adresini ver
@@ -63,3 +63,4 @@
    git stash drop                  # Commit yapilmamis degisiklikleri kaldır
    git grep                        # Mevcut dal icersinde kelime veya ifade arama
    gitk                            # Git gorsellestirme programi
+```
