@@ -1,8 +1,8 @@
-# Git Command
+ # GIT KOMUTLARI
 
  # KULLANICI BILGILERI :
     
-    git config --global user.name  #"kullanıcı adı / rumuz"
+    git config --global user.name  # "kullanıcı adı / rumuz"
     git config --global user.email # "E-posta"
     git config --list              # Calisma ve kullanici bilgilerini göster
 
@@ -27,23 +27,23 @@
     
     
  # REMOTE REPO :
-```
+  ```
    git clone <ADRES>               # Uzaktaki depoyu klonla
    git pull                        # Depodaki son degisiklikleri al
-   git push                        # Yereldeki degisiklikleri uzak depoda uygula (origin master)komutuda eklenebilir
+   git push                        # Yereldeki degisiklikleri uzak depoda uygula (origin master) komutuda eklenebilir
   ``` 
    
    
       
  # BRANCH(DAL) KOMUTLARI :
- ````
+ ```
    git branch <BRANCH ADI>         # Branch oluştur
    git branch                      # Branchleri göster
    git checkout <BRANCH ADI>       # Calisilan branchleri degistir    
    git merge <BRANCH ADI>          # Branch birleştir
    git branch -d <BRANCH ADI>      # Branch sil
  
- ````
+ ```
     
  # DIGER KOMUTLAR :
  ```
@@ -63,4 +63,4 @@
    git stash drop                  # Commit yapilmamis degisiklikleri kaldır
    git grep                        # Mevcut dal icersinde kelime veya ifade arama
    gitk                            # Git gorsellestirme programi
-```
+ ```
