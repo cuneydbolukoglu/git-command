@@ -5,8 +5,7 @@
     git config --global user.name  # "kullanıcı adı / rumuz"
     git config --global user.email # "E-posta"
     git config --list              # Calisma ve kullanici bilgilerini göster
-
-
+    
 
  # LOCAL REPO :
 
@@ -22,8 +21,7 @@
     git diff                       # Degisiklikler arasindaki farklari goster
     git diff --cached              # Listeye Eklenen Değişiklikler Arasındaki Farkları Göster
     git status                     # Calisma agacindaki durumu goster
-    git log                        # Islem gunlugunu goster 
-
+    git log                        # Islem gunlugunu goster
     
     
  # REMOTE REPO :
@@ -32,7 +30,6 @@
    git pull                        # Depodaki son degisiklikleri al
    git push                        # Yereldeki degisiklikleri uzak depoda uygula (origin master) komutuda eklenebilir
   ``` 
-   
    
       
  # BRANCH(DAL) KOMUTLARI :
